@@ -19,6 +19,7 @@ class _Page1State extends State<Page1> {
       ),
       body: Center(
         child: Column(
+          mainAxisAlignment: MainAxisAlignment.center,
           children: <Widget>[
             Text("${widget.param1} - ${widget.param2}"),
             RaisedButton(
